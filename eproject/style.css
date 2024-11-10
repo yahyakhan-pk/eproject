@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav a{
+    color: #f0cf14;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+nav a:hover{
+    color: #f0cf14;
+}
+#navbarSupportedContent ul li a{
+    color: #000;
+    font-weight: 700;
+}
+
+.border{
+    list-style: none;
+    border: none;
+}
+.item {
+background-color: #fff;
+padding: 30px;
+margin: 5px;
+border-radius: 10px;
+text-align: center;
+height: 200px; /* Set height to ensure visibility */
+font-size: 20px;
+box-shadow: 3px 3px 3px rgb(154, 154, 156);
+}
+.sign-in-up a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-family:  sans-serif;
+}
+.carousel-item img {
+    height: 400px; /* Set height to 400px */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+  }
+  .responsive-img {
+    width: 100%;       /* Image takes up 100% of the parent container's width */
+    height: auto;      /* Height adjusts automatically to maintain aspect ratio */
+    max-width: 100%;   /* Ensures the image never exceeds the container's width */
+  }
+  .head h1{
+    color: #756e6e;
+  }
+  .head a{
+    color: #000;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: 700;
+  }
+  /* Remove borders for images */
+img {
+    border: none;
+  }
+  
+  /* Remove borders for cards */
+  .card {
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Remove borders from the carousel items */
+  .carousel-item {
+    border: none;
+  }
+  
+  /* Optionally, if there are any buttons that have borders */
+  button, .btn {
+    border: none;
+  }
+  
+  /* Remove borders from the flex container cards */
+  .card-container, .card-container .card {
+    border: none;
+  }
+  
+  .product:hover {
+    transform: translateY(-10px); /* Moves the card 10px up */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Makes the shadow darker and more prominent */
+  }
+  
+  
+
+
+
+
+
+
+
